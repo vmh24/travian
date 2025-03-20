@@ -76,7 +76,7 @@ class TravianCalculator:
         self.villageAlianceBonuses.metalurgie_bonus_percentage = metalurgie_bonus_percentage
 
     def set_brewery_bonus_percentage(self, brewery_level):
-        if brewery_level < 0 or brewery_level > 0:
+        if brewery_level < 0 or brewery_level > 20:
             raise ValueError(f"Brewery level can be only from 0 - 20.")
         
         self.villageAlianceBonuses.palace_residence_defence_bonus_points = brewery_level

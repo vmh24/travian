@@ -65,11 +65,11 @@ if __name__ == '__main__':
         )
     )
 
-    tribe = GAULS
+    tribe = TEUTONS
     wall_level = 20
     palace_residence_level = 20
     metalurgie_precentage = 6
-    brewery = 0
+    brewery = 20
 
     travian = TravianCalculator(troops, tribe, wall_level, hero, palace_residence_level, metalurgie_precentage, brewery)
     travian.calculate_stats_points()
